@@ -28,9 +28,9 @@ Users should be able to:
 
 ### The Desktop Size 1440px
 
-![The Desktop Size 1440px](<images/127.0.0.1_5500_index.html%20(1).png>)
+![The Desktop Size 1440px](<127.0.0.1_5500_index.html%20(1).png>)
 
-![The mobile Size 375px](</images/127.0.0.1_5500_index.html(iPhone%20SE).png>)
+![The mobile Size 375px](<127.0.0.1_5500_index.html(iPhone%20SE).png>)
 
 ### Links
 
