@@ -1,0 +1,143 @@
+/*  Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 1440px;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  width: 600px;
+  height: 450px;
+  display: flex;
+  font-family: "Montserrat";
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  overflow: hidden;
+}
+
+
+.image-big {
+  height: 105%;
+}
+
+.produt-deatils {
+  padding: 25px;
+  width: 50%;
+  font-size: 14px;
+}
+
+.produt-title {
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 25px;
+}
+
+.produt-name {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces";
+  font-size: 32px;
+  margin-bottom: 25px;
+  line-height: 1;
+}
+
+.produt-info {
+  color: hsl(228, 12%, 48%);
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  color: hsl(158, 36%, 37%);
+  margin-bottom: 25px;
+}
+
+.price strong {
+  font-family: "Fraunces";
+  font-size: 32px;
+}
+
+.price span {
+  margin-left: 15px;
+  text-decoration: line-through;
+}
+
+.button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(30, 38%, 92%);
+  padding: 15px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+
+button img {
+  margin-right: 12px;
+}
+
+@media (max-width: 375px) {
+  main {
+    width: 375px;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .container {
+    width: 350px;
+    height: 92.5vh;
+    flex-direction: column;
+  }
+
+
+  .image-big {
+    width: 100%;
+  }
+
+  .produt-deatils {
+    width: 100%;
+    padding: 25px;
+    font-size: 15px;
+    margin-top: 14px;
+  }
+
+  .produt-title {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .produt-name {
+    margin-bottom: 15px;
+  }
+
+  .produt-info {
+  line-height: 1.4;
+    margin-bottom: 15px;
+  }
+
+  .price {
+    margin-bottom: 15px;
+  }
+
+
+}
